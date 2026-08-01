@@ -1,2 +1,3 @@
 # SA-SCL
 This data warehouse contains the original data (which has been anonymized) and the main code related to the SA-SCL model. This model aims to integrate large language models into social network accounts, thereby creating anthropomorphic social users.
+This data warehouse contains the original data (which has been anonymized) and the main code related to the SA-SCL model. This model aims to integrate large language models into social network accounts, thereby creating anthropomorphic social users. If you have any further academic exchanges or industrial applications, please contact the author at: sdrzlwz@126.com, hsu25@stu.pku.edu.cn and guyijun@ppsuc.edu.cn.
