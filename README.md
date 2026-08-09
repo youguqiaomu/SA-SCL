@@ -1,7 +1,20 @@
-# SA-SCL
-This data warehouse contains the original data (which has been anonymized) and the main code related to the SA-SCL model. This model aims to integrate large language models into social network accounts, thereby creating anthropomorphic social users.
-This data warehouse contains the original data (which has been anonymized) and the main code related to the SA-SCL model. This model aims to integrate large language models into social network accounts, thereby creating anthropomorphic social users.
+This repository contains the source code and anonymized datasets for SA-SCL, a framework that integrates large language models with time-aware stochastic competitive learning for social network user agent simulation. The framework enables style-aware user modeling, dynamic environment perception, and controllable attitude generation in social contexts.
 
-This repository contains the code and data for the paper "SA-SCL: A Social-Aware Stochastic Competitive Learning Framework for Social Network Simulation". The code is organized into five sequential scripts that should be executed in numerical order: 01_data_cleaner.ipynb cleans all .xlsx files in the data directory, 02_experiment_main.ipynb runs the main experiments (SA-SCL vs four baselines) and generates per-dataset result files, 03_experiment_loop.ipynb performs the closed-loop versus open-loop comparison over 15 iterative rounds, 04_analysis_aggregate.ipynb aggregates all results to produce the data reported in Table 2, and 05_plot_violin.ipynb generates Figure 8 (the violin plot of composite score distributions). All experiments use fixed random seeds (random.seed(42), np.random.seed(42), torch.manual_seed(42)) to ensure deterministic and reproducible results. A requirements.txt file is provided listing all Python dependencies with exact version numbers. A mapping table in the README links each paper table and figure to its corresponding source code, input data, and output file. All datasets have been fully anonymized with original usernames replaced by unique identifiers (e.g., user00001).
+The code is organized into five sequential Jupyter notebooks that should be executed in numerical order:
+
+01_data_cleaner.ipynb: Loads and preprocesses all .xlsx files in the data directory, performing bot filtering, deduplication, and data normalization.
+
+02_experiment_main.ipynb: Runs the core experiments comparing SA-SCL against four baseline methods (CGAN, Markov Chain, MiniCPM-Only, and TWICE), generating per-dataset evaluation results.
+
+03_experiment_loop.ipynb: Conducts the closed-loop versus open-loop comparison over multiple iterative rounds to evaluate the effect of environmental feedback.
+
+04_analysis_aggregate.ipynb: Aggregates all per-dataset results into summary statistics for cross-method comparison.
+
+05_plot_violin.ipynb: Generates visualization of the composite score distributions for all methods.
+![MAPING TABLE](./MAPING.png)
+
+All datasets have been fully anonymized, with original usernames replaced by unique identifiers (e.g., user00001). The data directory contains 29 topic-based datasets, each corresponding to a specific hashtag from the X/Twitter platform.
+
+A environment.yml file is provided to create a conda environment with all required dependencies, ensuring reproducible execution. All experiments use fixed random seeds for deterministic results.
 
 An executable software package (.exe) encapsulating the SA-SCL model is scheduled to be released on this data repository by September 2026. Readers are encouraged to direct any questions or suggestions to the project team at sdrzlwz@126.com.
