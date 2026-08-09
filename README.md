@@ -1,4 +1,4 @@
-This repository contains the source code and anonymized datasets for SA-SCL, a framework that integrates large language models with time-aware stochastic competitive learning for social network user agent simulation. The framework enables style-aware user modeling, dynamic environment perception, and controllable attitude generation in social contexts.
+This repository contains the source code and anonymized datasets for SA-SCL, a framework that integrates large language models with time-aware stochastic competitive learning for social network user agent simulation. The framework enables style-aware user modeling, dynamic environment perception, and controllable attitude generation in social contexts. 
 
 The code is organized into five sequential Jupyter notebooks that should be executed in numerical order:
 
