@@ -1,0 +1,21 @@
+SA-SCL: Social Network User Agents with Time-Aware Stochastic Competitive Learning
+A framework integrating LLMs with time-aware stochastic competitive learning for controllable social simulation.
+
+Features
+Style Cloning: Reads user posting history from X/Twitter and Weibo (via account ID or uploaded CSV/Excel)
+
+Environment Sensing: Captures real-time social context including sentiment, topics, and consensus
+
+Attitude Injection: Accepts natural-language attitude specifications for controllable generation
+
+Controllable Posting: Auto-generates and publishes content matching cloned styles
+
+Quick Start
+Download the .exe from Releases, double-click, and follow the on-screen prompts. No installation or coding required.
+
+Citation
+
+If you use this work, please cite our paper (under review, citation details will be updated upon publication).
+
+License
+For academic research only.
