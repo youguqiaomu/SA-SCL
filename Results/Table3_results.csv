@@ -1,0 +1,9 @@
+Publication Detailed Statistics Table,,,,
+Method,Mean (red),Median (black),SD,N
+SA-SCL,0.637,0.647,0.063,145
+miniCPM_only,0.58,0.583,0.071,145
+Markov Chain,0.582,0.597,0.069,145
+CGAN,0.572,0.582,0.057,145
+TWICE,0.603,0.613,0.066,145
+,,,,
+,,,,
