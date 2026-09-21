@@ -1,2 +1,16 @@
 
 This directory contains the processed output data corresponding to the main experimental results reported in the paper.
+
+Files included:
+
+Table_2_results.csv
+
+Table_3_results.csv
+
+Figure_6_data.csv
+  
+Figure_7_data.csv
+ 
+Figure8_violin_method_comparison_results.csv
+
+For questions regarding the experimental configuration or data processing, please refer to the main README and the accompanying notebooks in the repository root.
