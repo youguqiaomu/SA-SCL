@@ -17,7 +17,7 @@ All datasets have been fully anonymized, with original usernames replaced by uni
 
 An environment.yml file is provided to create a conda environment with all required dependencies, ensuring reproducible execution. All experiments use fixed random seeds for deterministic results. The output data for Table 2, Table 3, Figure 6, Figure 7, and Figure 8 are provided in the Results/ directory.
 
-An executable software package (.exe) encapsulating the SA-SCL model is scheduled to be released on this data repository by September 2026 (Version 1.1 has been initially developed and was uploaded to the platform on September 14, 2026. Version 2.1 has been initially developed and was uploaded to the platform on October 8th, 2026.). 
+An executable software package (.exe) encapsulating the SA-SCL model is scheduled to be released on this data repository by September 2026 (Version 1.1 has been initially developed and was uploaded to the platform on September 14, 2026. Version 2.1 has been developed and was uploaded to the platform on October 8th, 2026.). 
 ![12996=S(19)*A(1)*S(19)*C(3)*L(12)](./12996software.jpg)
 
 Readers are encouraged to direct any questions or suggestions to the project team at sdrzlwz@126.com. 
